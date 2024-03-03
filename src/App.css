@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background-color: fuchsia;
+  height: 100vh;
 }
+.App-home{
+  width: 80%;
+  margin: auto;
+  background-color: dodgerblue;
+
+
+}
+.App-home h1{
+  text-align: center;
+  font-size: 34px;
+
+}
+
+.App-home button{
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+

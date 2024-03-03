@@ -1,0 +1,47 @@
+body{
+    background-color: turquoise;
+}
+.PostLikes{
+    width: 80%;
+    margin: auto;
+    background-color: salmon;
+}
+.mypost{
+    background-color: dodgerblue;
+    margin-top: 10px;
+}
+.Post{
+    font-size: 24px;
+    padding: 10px;
+}
+button{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+span{
+    color: lightblue;
+    font-size: 20px;
+    background-color: tomato;
+    border-radius: 50%;
+    padding: 4px;
+}
+.myimage{
+    overflow: hidden;
+    width: 400px;
+    
+
+}
+img{
+    transition: 0.3s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: salmon;
+}
